@@ -1,10 +1,10 @@
 ## FastApi test application
 
-#### Usefull links:
+#### Useful links:
 
 * [FastApi docs](https://fastapi.tiangolo.com/)
 
-* [SQLModelsq docs](https://sqlmodel.tiangolo.com/)
+* [SQLModels docs](https://sqlmodel.tiangolo.com/)
 
 * [SQLAlchemy docs](https://docs.sqlalchemy.org/en/20/)
 
