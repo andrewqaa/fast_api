@@ -8,7 +8,7 @@ class BaseUser(SQLModel):
 
 
 class OutputUser(BaseUser):
-    pets: list['Pet']
+    pets: list['BasePet'] | None
 
 
 class User(BaseUser, table=True):
@@ -22,7 +22,7 @@ class BasePet(SQLModel):
 
 
 class OutputPet(BasePet):
-    owner: User
+    owner: User | None
 
 
 class Pet(BasePet, table=True):
